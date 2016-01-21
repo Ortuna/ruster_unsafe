@@ -600,7 +600,7 @@ For a complete example see (ruster_demo)
 <span class='attribute'>#[<span class='ident'>repr</span>(<span class='ident'>C</span>)]</span>
 <span class='kw'>pub</span> <span class='kw'>struct</span> <span class='ident'>ErlNifBinary</span> {
     <span class='kw'>pub</span> <span class='ident'>size</span>: <span class='ident'>size_t</span>,
-    <span class='kw'>pub</span> <span class='ident'>data</span>: <span class='op'>*</span><span class='kw'>const</span> <span class='ident'>u8</span>,
+    <span class='kw'>pub</span> <span class='ident'>data</span>: <span class='op'>*</span><span class='kw-2'>mut</span> <span class='ident'>u8</span>,
     <span class='ident'>bin_term</span>: <span class='ident'>ERL_NIF_TERM</span>,
     <span class='ident'>ref_bin</span>: <span class='op'>*</span><span class='kw-2'>mut</span> <span class='ident'>c_void</span>,
 }
