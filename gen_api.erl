@@ -317,6 +317,7 @@ get_nif_version() ->
 version_string2tuple("2.7") -> {2,7};
 version_string2tuple("2.8") -> {2,8};
 version_string2tuple("2.9") -> {2,9};
+version_string2tuple("2.10") -> {2,9};
 version_string2tuple(_) -> unsupported.
 
 check_version(unsupported) ->
